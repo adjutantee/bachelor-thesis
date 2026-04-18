@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  ballista.backend:
+    image: ${DOCKER_REGISTRY-}ballistabackend
+    build:
+      context: .
+      dockerfile: Ballista.backend/Dockerfile
