@@ -1,0 +1,25 @@
+# Visual Studio / .NET
+backend/Ballista/bin/
+backend/Ballista/obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Node modules (если есть)
+frontend/node_modules/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.local
